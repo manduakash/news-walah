@@ -28,11 +28,16 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* custom css */
+body {
+  background-color: rgb(224, 224, 224);
+}
+
+.card {
+  transition-duration: 500ms;
+  height: fit-content;
+}
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 2px 5px 20px #9da1a8;
 }
